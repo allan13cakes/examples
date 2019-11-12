@@ -10,4 +10,8 @@ public class TeamCityCheck {
 	public String sayHello() {
 		return message;
 	}
+
+	public String sayHello2() {
+		return message + "test";
+	}
 }

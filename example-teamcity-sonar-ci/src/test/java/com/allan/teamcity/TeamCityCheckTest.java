@@ -16,4 +16,9 @@ public class TeamCityCheckTest {
 	public void sayHelloTest() {
 		Assert.assertEquals("hello", teamCityCheck.sayHello());
 	}
+
+	@Test
+	public void sayHello2Test() {
+		Assert.assertEquals("hellotest", teamCityCheck.sayHello2());
+	}
 }
